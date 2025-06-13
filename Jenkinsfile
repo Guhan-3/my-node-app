@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Guhan-3/my-node-app.git', branch: 'main'
+                git url: 'https://github.com/Guhan-3/my-node-app.git', branch: 'master'
             }
         }
 
